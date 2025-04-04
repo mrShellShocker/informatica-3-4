@@ -17,5 +17,10 @@ int main(){
     printf("Welcome to the Snack Shop\n");
     printf("---------------------------\n");
     printf("Item\t\tPrice\tQuantity\n");
-    //printf("%d snack,");
+    
+    printf("%s\t\t%.2f\t%d\n", snack1, snack1Value, snack1Stock);
+    printf("%s\t\t%.2f\t%d\n", snack2, snack2Value, snack2Stock);
+    printf("%s\t\t%.2f\t%d\n", snack3, snack3Value, snack3Stock);
+
+    return 0;
 }
