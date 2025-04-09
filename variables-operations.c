@@ -32,8 +32,8 @@ int main() {
 
     printf("Enter temperature in farenheit: ");
     scanf("%d", &fahrenheit);
-    int celsius = (fahrenheit-32)/1.8;
-    printf("%d°F = %d°C\n", fahrenheit, celsius);
+    float celsius = (fahrenheit-32)/1.8;
+    printf("%d°F = %.2f°C\n", fahrenheit, celsius);
 
 //hours to minutes
 
@@ -45,10 +45,9 @@ int main() {
 
 //circle
 
-    printf("Enter the radio od the circle: ");
+    printf("Enter the radio of the circle: ");
     scanf("%d", &radio);
-    int circleArea = 
-    printf("The area of the circle is = %d", circleArea);
-
+    float circleArea = (radio * radio) * 3.14;
+    printf("The area of the circle is = %.2f\n", circleArea);
     return 0;
 }
