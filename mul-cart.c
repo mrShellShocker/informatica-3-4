@@ -5,10 +5,10 @@ int main() {
     int n;
     scanf("%d", &n);
     
-    for(int row = 1; row < 6; row++){
-        for (int col = 1; col < 6; col++)
+    for(int row = 0; row < 6; row++){
+        for (int col = 0; col < 6; col++)
         {
-            int mul = row + col;
+            int mul = row * col;
             printf("%d\t", mul);
         }
 
